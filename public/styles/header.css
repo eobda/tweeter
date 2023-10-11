@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 520px;
+  padding-top: 150px;
+  background-color: #d89925;
+  color: #ffffff;
+}
