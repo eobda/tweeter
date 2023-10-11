@@ -8,14 +8,11 @@ nav {
   padding-right: 1.5em;
   background-color: #4056A1;
   color: #FFFFFF;
+  text-align: center;
 }
 
 nav span.logo {
   font-family: 'Bungee', sans-serif;
-}
-
-nav div {
-  text-align: center;
 }
 
 nav i {
