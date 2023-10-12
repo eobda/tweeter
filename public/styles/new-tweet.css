@@ -20,3 +20,11 @@
   outline: none;
   background-color: #f4f1ec;
 }
+
+.new-tweet form button {
+  border: 0;
+  padding: 5px 10px;
+  background-color: #4056A1;
+  font-family: 'Bungee', sans-serif;
+  color: #FFFFFF;
+}
