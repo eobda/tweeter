@@ -1,0 +1,22 @@
+.new-tweet {
+  width: 60%;
+  margin: auto;
+}
+
+.new-tweet form label {
+  font-weight: 600;
+}
+
+.new-tweet textarea {
+  display: block;
+  width: 100%;
+  resize: none;
+  margin-bottom: 10px;
+
+  border-top: none;
+  border-right: none;
+  border-bottom: 5px solid black;
+  border-left: none;
+  outline: none;
+  background-color: #f4f1ec;
+}
