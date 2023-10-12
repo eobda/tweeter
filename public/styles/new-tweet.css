@@ -4,11 +4,11 @@
 }
 
 .new-tweet form label {
+  width: 100%;
   font-weight: 600;
 }
 
 .new-tweet textarea {
-  display: block;
   width: 100%;
   resize: none;
   margin-bottom: 10px;
