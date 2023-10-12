@@ -28,3 +28,8 @@
   font-family: 'Bungee', sans-serif;
   color: #FFFFFF;
 }
+
+.new-tweet div {
+  display: flex;
+  justify-content: space-between;
+}
