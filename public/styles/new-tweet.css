@@ -19,6 +19,8 @@
   border-left: none;
   outline: none;
   background-color: #f4f1ec;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .new-tweet form button {
