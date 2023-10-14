@@ -3,7 +3,8 @@ $(document).ready(function() {
   
   $('#tweet-text').on('input', function() {
     const $composer = $(this);
-    console.log('Value of $composer:', $composer.val());
-    console.log('Length of value of $composer:', $composer.val().length);
+    const charLimit = 140;
+    const currentChars = $composer.val().length;
+    console.log('Characters left:', charLimit - currentChars);
   });
 });
