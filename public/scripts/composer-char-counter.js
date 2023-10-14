@@ -6,5 +6,8 @@ $(document).ready(function() {
     const charLimit = 140;
     const currentChars = $composer.val().length;
     console.log('Characters left:', charLimit - currentChars);
+
+    const $counter = $composer.next().children().filter('.counter');
+    console.log($counter.val());
   });
 });
