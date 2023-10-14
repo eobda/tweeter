@@ -11,6 +11,8 @@ $(document).ready(function() {
     // Turn counter red if counter is negative
     if ((charLimit - currentChars) < 0) {
       $counter.css('color', '#FF0000');
+    } else {
+      $counter.css('color', '#545149');
     }
   });
 });
