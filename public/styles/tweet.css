@@ -33,6 +33,11 @@ article.tweet footer div.icons i {
   color: #4056A1;
 }
 
+/*** Hover state ***/
+article.tweet:hover {
+  box-shadow: 7px 7px rgba(64, 86, 161, 0.25);
+}
+
 article.tweet footer div.icons i:hover {
   color: #d89925;
 }
