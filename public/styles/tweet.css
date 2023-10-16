@@ -13,8 +13,11 @@ article.tweet header, article.tweet footer {
 
 article.tweet div p {
   padding: 15px;
+  font-weight: 600;
 }
 
 article.tweet footer {
   border-top: 5px solid #545149;
+  font-size: 18px;
+  font-weight: 600;
 }
