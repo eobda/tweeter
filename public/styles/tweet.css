@@ -12,7 +12,8 @@ article.tweet header, article.tweet footer {
 }
 
 article.tweet header div.username {
-  color: #c5cbe3;
+  color: #4056A1;
+  opacity: 0.25;
   font-weight: 600;
 }
 
