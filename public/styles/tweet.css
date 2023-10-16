@@ -1,4 +1,20 @@
+article.tweet {
+  width: 80%;
+  margin: 50px auto;
+  padding: 15px;
+  border: 5px solid #545149;
+}
+
 article.tweet header, article.tweet footer {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
+}
+
+article.tweet div p {
+  padding: 15px;
+}
+
+article.tweet footer {
+  border-top: 5px solid #545149;
 }
