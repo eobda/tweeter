@@ -11,6 +11,11 @@ article.tweet header, article.tweet footer {
   padding: 15px;
 }
 
+article.tweet header div.username {
+  color: #c5cbe3;
+  font-weight: 600;
+}
+
 article.tweet div p {
   padding: 15px;
   font-weight: 600;
