@@ -1,0 +1,4 @@
+article.tweet header, article.tweet footer {
+  display: flex;
+  justify-content: space-between;
+}
