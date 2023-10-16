@@ -26,3 +26,8 @@ article.tweet footer {
   font-size: 18px;
   font-weight: 600;
 }
+
+article.tweet footer div.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
