@@ -30,7 +30,7 @@ $(document).ready(function() {
     for (const tweetData of data) {
       const $tweet = createTweetElement(tweetData);
       $('#tweets-container').append($tweet);
-    };
+    }
   };
 
   const createTweetElement = function(data) {
