@@ -12,11 +12,11 @@ $(document).ready(function() {
         </div>
       </header>
       <div>
-        <p>${data.user.content}s</p>
+        <p>${data.content.text}</p>
       </div>
       <footer>
         <div>
-          ${data.user.created_at}
+          ${data.created_at}
         </div>
         <div class="icons">
           <i class="fa-solid fa-flag"></i> <i class="fa-solid fa-retweet"></i> <i class="fa-solid fa-heart"></i>
