@@ -24,7 +24,7 @@ $(document).ready(function() {
       },
       "created_at": 1461113959088
     }
-  ]
+  ];
 
   const renderTweets = function(data) {
     for (const tweetData of data) {
