@@ -62,7 +62,7 @@ $(document).ready(function() {
   // Calculate number of days ago a tweet was created
   const getDaysAgo = function(createdDate) {
     // Get number of milliseconds since created date
-    const daysAgo = Date.now() - createdDate;
+    let daysAgo = Date.now() - createdDate;
     // Divide by number of milliseconds in 1 day, rounded down
     daysAgo = Math.floor(daysAgo / 86400000);
     
