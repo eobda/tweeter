@@ -76,4 +76,10 @@ $(document).ready(function() {
   };
 
   renderTweets(tweets);
+
+  // Form submission with AJAX
+  const $button = $('#submit-tweet');
+  $button.on('click', function() {
+    console.log('Button was targeted!');
+  });
 });
