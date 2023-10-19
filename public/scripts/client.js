@@ -49,7 +49,7 @@ $(document).ready(function() {
       </div>
       <footer>
         <div>
-          ${data.created_at}
+          ${getDaysAgo(data.created_at)}
         </div>
         <div class="icons">
           <i class="fa-solid fa-flag"></i> <i class="fa-solid fa-retweet"></i> <i class="fa-solid fa-heart"></i>
