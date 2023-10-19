@@ -79,7 +79,8 @@ $(document).ready(function() {
 
   // Form submission with AJAX
   const $button = $('#submit-tweet');
-  $button.on('click', function() {
+  $button.on('submit', function(event) {
     console.log('Button was targeted!');
+    event.preventDefault();
   });
 });
