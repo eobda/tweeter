@@ -79,7 +79,8 @@ $(document).ready(function() {
 
   // Form submission with AJAX
   $('#submit-tweet').on('submit', function(event) {
-    console.log('Submit event waiting for ajax call');
     event.preventDefault();
+    const $tweetText = $('#submit-tweet').serialize();
+    $.ajax($tweetText, { method: 'POST' })
   });
 });
