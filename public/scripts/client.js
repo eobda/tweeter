@@ -38,6 +38,8 @@ $(document).ready(function() {
     const $tweetText = $('#submit-tweet').serialize();
     if ($tweetText === 'text=') {
       alert('Tweet cannot be empty!');
+    } else if ($tweetText.length > 145) {
+      alert('Tweet is too long');
     } else {
       $.ajax('/tweets', { data: $tweetText, method: 'POST' });
     }
