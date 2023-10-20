@@ -84,4 +84,15 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+  // Fetching information with AJAX
+  const loadTweets = function() {
+    $.ajax('/tweets', { method: 'GET' })
+    .then(function(tweets) {
+      renderTweets(tweets);
+    });
+  }
+
+  // Test function
+  loadTweets();
 });
