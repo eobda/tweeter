@@ -44,7 +44,7 @@ $(document).ready(function() {
       alert('Tweet is too long');
     } else {
       $.ajax('/tweets', { data: $tweetText, method: 'POST' })
-      .then(loadTweets);
+      .then(loadTweets());
     }
 
     event.preventDefault();
@@ -57,4 +57,7 @@ $(document).ready(function() {
       renderTweets(tweets);
     });
   }
+
+  // Render tweets on page load
+  loadTweets();
 });
