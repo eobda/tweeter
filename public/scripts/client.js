@@ -23,7 +23,7 @@ $(document).ready(function() {
       </div>
       <footer>
         <div>
-          ${getDaysAgo(data.created_at)}
+        ${timeago.format(data.created_at)}
         </div>
         <div class="icons">
           <i class="fa-solid fa-flag"></i> <i class="fa-solid fa-retweet"></i> <i class="fa-solid fa-heart"></i>
@@ -31,22 +31,6 @@ $(document).ready(function() {
       </footer>
     </article>`);
     return $tweet;
-  };
-
-  // Calculate number of days ago a tweet was created
-  const getDaysAgo = function(createdDate) {
-    // Get number of milliseconds since created date
-    let daysAgo = Date.now() - createdDate;
-    // Divide by number of milliseconds in 1 day, rounded down
-    daysAgo = Math.floor(daysAgo / 86400000);
-    
-    if (daysAgo < 1) {
-      return 'Less than a day ago';
-    } else if (daysAgo === 1) {
-      return '1 day ago';
-    } else {
-      return `${daysAgo} days ago`;
-    }
   };
 
   // Form submission with AJAX
