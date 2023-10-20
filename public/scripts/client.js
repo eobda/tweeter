@@ -46,9 +46,9 @@ $(document).ready(function() {
   $('#submit-tweet').on('submit', function(event) {
     const $tweetText = $('#submit-tweet').serialize();
     if ($tweetText === 'text=') {
-      alert('Tweet cannot be empty!');
+      $('.error-message').text('Tweet cannot be empty!');
     } else if ($tweetText.length > 145) {
-      alert('Tweet is too long');
+      $('.error-message').text('Tweet is too long');
     } else {
       $.ajax('/tweets', { data: $tweetText, method: 'POST' })
       .then(loadTweets());
