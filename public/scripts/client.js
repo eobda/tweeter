@@ -21,7 +21,7 @@ $(document).ready(function() {
         </div>
       </header>
       <div>
-        <p>${data.content.text}</p>
+        ${escape(data.content.text)}
       </div>
       <footer>
         <div>
@@ -33,6 +33,13 @@ $(document).ready(function() {
       </footer>
     </article>`);
     return $tweet;
+  };
+
+  // Escape function to prevent XSS
+  const escape = function(str) {
+    let div = document.createElement("div");
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
   };
 
   // Form submission with AJAX
