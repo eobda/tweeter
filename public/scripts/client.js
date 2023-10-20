@@ -41,7 +41,8 @@ $(document).ready(function() {
     } else if ($tweetText.length > 145) {
       alert('Tweet is too long');
     } else {
-      $.ajax('/tweets', { data: $tweetText, method: 'POST' });
+      $.ajax('/tweets', { data: $tweetText, method: 'POST' })
+      .then(loadTweets);
     }
 
     event.preventDefault();
@@ -54,7 +55,4 @@ $(document).ready(function() {
       renderTweets(tweets);
     });
   }
-
-  // Test function
-  loadTweets();
 });
