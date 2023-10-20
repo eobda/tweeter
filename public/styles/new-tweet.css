@@ -38,8 +38,12 @@
 
 /* Error message styling */
 div.error-message {
+  margin-top: 50px;
+  padding: 20px 30px;
   background-color: #fce4e4;
   border: 1px solid #fcc2c3;
-  color: #ff00ac;
-  padding: 20px 30px;
+  color: #dd0000;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
 }
