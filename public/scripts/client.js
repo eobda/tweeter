@@ -47,18 +47,18 @@ $(document).ready(function() {
     const $tweetText = $('#submit-tweet').serialize();
 
     // Slide up error message if open
-    $('.error-message').slideUp();
-    
-    if ($tweetText === 'text=') {
-      $('.error-message').text('Tweet cannot be empty!');
-      $('.error-message').slideDown();
-    } else if ($tweetText.length > 145) {
-      $('.error-message').text('Tweet is too long');
-      $('.error-message').slideDown();
-    } else {
-      $.ajax('/tweets', { data: $tweetText, method: 'POST' })
-      .then(loadTweets());
-    }
+    $('.error-message').slideUp(function () {
+      if ($tweetText === 'text=') {
+        $('.error-message').text('Tweet cannot be empty!');
+        $('.error-message').slideDown();
+      } else if ($tweetText.length > 145) {
+        $('.error-message').text('Tweet is too long');
+        $('.error-message').slideDown();
+      } else {
+        $.ajax('/tweets', { data: $tweetText, method: 'POST' })
+        .then(loadTweets());
+      }
+    });
 
     event.preventDefault();
   });
