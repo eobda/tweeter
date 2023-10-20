@@ -21,7 +21,7 @@ $(document).ready(function() {
         </div>
       </header>
       <div>
-        ${escape(data.content.text)}
+        <p>${escape(data.content.text)}</p>
       </div>
       <footer>
         <div>
