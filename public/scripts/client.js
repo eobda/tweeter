@@ -36,7 +36,11 @@ $(document).ready(function() {
   // Form submission with AJAX
   $('#submit-tweet').on('submit', function(event) {
     const $tweetText = $('#submit-tweet').serialize();
-    $.ajax('/tweets', { data: $tweetText, method: 'POST' });
+    if ($tweetText === 'text=') {
+      alert('Tweet cannot be empty!');
+    } else {
+      $.ajax('/tweets', { data: $tweetText, method: 'POST' });
+    }
 
     event.preventDefault();
   });
