@@ -35,3 +35,11 @@
   justify-content: space-between;
   font-family: 'Bungee', sans-serif;
 }
+
+/* Error message styling */
+div.error-message {
+  background-color: #fce4e4;
+  border: 1px solid #fcc2c3;
+  color: #ff00ac;
+  padding: 20px 30px;
+}
