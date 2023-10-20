@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
   const renderTweets = function(data) {
+    $('#tweets-container').empty();
+
     for (const tweetData of data) {
       const $tweet = createTweetElement(tweetData);
       $('#tweets-container').prepend($tweet);
