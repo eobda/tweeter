@@ -80,7 +80,7 @@ $(document).ready(function() {
   // Form submission with AJAX
   $('#submit-tweet').on('submit', function(event) {
     const $tweetText = $('#submit-tweet').serialize();
-    $.ajax($tweetText, { method: 'POST' })
+    $.ajax('/tweets', { data: $tweetText, method: 'POST' });
 
     event.preventDefault();
   });
