@@ -45,6 +45,10 @@ $(document).ready(function() {
   // Form submission with AJAX
   $('#submit-tweet').on('submit', function(event) {
     const $tweetText = $('#submit-tweet').serialize();
+
+    // Slide up error message if open
+    $('.error-message').slideUp();
+    
     if ($tweetText === 'text=') {
       $('.error-message').text('Tweet cannot be empty!');
       $('.error-message').slideDown();
