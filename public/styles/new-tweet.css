@@ -38,11 +38,13 @@
 
 /* Error message styling */
 div.error-message {
+  visibility: hidden;
+  
   margin-top: 50px;
   padding: 20px 30px;
   background-color: #fce4e4;
   border: 1px solid #fcc2c3;
-  color: #dd0000;
+  color: #cc0033;
   font-size: 18px;
   font-weight: 600;
 }
