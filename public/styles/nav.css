@@ -19,3 +19,7 @@ nav span.logo {
 nav i {
   color: #FF0000;
 }
+
+#composer-button:hover {
+  cursor: pointer;
+}
