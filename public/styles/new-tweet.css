@@ -1,4 +1,6 @@
 .new-tweet {
+  display: none;
+  
   width: 80%;
   margin: 60px auto;
 }
