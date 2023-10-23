@@ -50,3 +50,21 @@ div.error-message {
   font-size: 18px;
   font-weight: 600;
 }
+
+/* Scroll up button styling */
+div#scroll-up {
+  height: 80px;
+  width: 80px;
+  padding: 23px;
+  margin: 20px;
+  
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  background-color: #ff0000;
+  border-radius: 50%;
+  color: #f4f1ec;
+  font-size: 30px;
+  text-align: center;
+}
