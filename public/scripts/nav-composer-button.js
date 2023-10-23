@@ -15,5 +15,8 @@ $(document).ready(function() {
     $('html').animate({scrollTop: 0}, '300');
     $('section.new-tweet').slideDown();
     $('#tweet-text').focus();
+    // Make composer button appear and scroll up button disappear
+    $('#composer-button').css('display', 'block');
+    $('#scroll-up').css('display', 'none');
   });
 });
