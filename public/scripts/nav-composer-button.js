@@ -10,4 +10,9 @@ $(document).ready(function() {
     $('#composer-button').css('display', 'none');
     $('#scroll-up').css('display', 'block');
   });
+
+  $('#scroll-up').on('click', function(event) {
+    $('section.new-tweet').slideDown();
+    $('#tweet-text').focus();
+  });
 });
