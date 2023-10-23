@@ -53,6 +53,8 @@ div.error-message {
 
 /* Scroll up button styling */
 div#scroll-up {
+  display: none;
+  
   height: 80px;
   width: 80px;
   padding: 23px;
