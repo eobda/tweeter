@@ -12,6 +12,7 @@ $(document).ready(function() {
   });
 
   $('#scroll-up').on('click', function(event) {
+    $('html').animate({scrollTop: 0}, '300');
     $('section.new-tweet').slideDown();
     $('#tweet-text').focus();
   });
