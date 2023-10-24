@@ -56,6 +56,7 @@ $(document).ready(function() {
         $('.error-message').slideDown();
       } else {
         $.ajax('/tweets', { data: $tweetText, method: 'POST' })
+          .then($('#tweet-text').val(''))
           .then(loadTweets());
       }
     });
