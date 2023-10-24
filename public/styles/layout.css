@@ -43,5 +43,17 @@ main {
 @media screen and (min-width: 1024px) {
   body {
     background-color: #ffff00;
+    display: flex;
+  }
+
+  body > header {
+    height: 400px;
+    width: 50%;
+    padding-top: 0;
+    margin: 100px;
+  }
+
+  nav {
+    background-color: #4056A1;
   }
 }
