@@ -34,3 +34,14 @@ main {
 .button:hover {
   cursor: pointer;
 }
+
+/*
+ * Responsive design
+ */
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #ffff00;
+  }
+}
