@@ -47,7 +47,7 @@ $(document).ready(function() {
     const $tweetText = $('#submit-tweet').serialize();
 
     // Slide up error message if open
-    $('.error-message').slideUp(function () {
+    $('.error-message').slideUp(function() {
       if ($tweetText === 'text=') {
         $('.error-message').text('Tweet cannot be empty!');
         $('.error-message').slideDown();
@@ -56,7 +56,7 @@ $(document).ready(function() {
         $('.error-message').slideDown();
       } else {
         $.ajax('/tweets', { data: $tweetText, method: 'POST' })
-        .then(loadTweets());
+          .then(loadTweets());
       }
     });
 
@@ -66,10 +66,10 @@ $(document).ready(function() {
   // Fetching information with AJAX
   const loadTweets = function() {
     $.ajax('/tweets', { method: 'GET' })
-    .then(function(tweets) {
-      renderTweets(tweets);
-    });
-  }
+      .then(function(tweets) {
+        renderTweets(tweets);
+      });
+  };
 
   // Render tweets on page load
   loadTweets();
