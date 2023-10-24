@@ -45,6 +45,7 @@ $(document).ready(function() {
   // Form submission with AJAX
   $('#submit-tweet').on('submit', function(event) {
     const $tweetText = $('#submit-tweet').serialize();
+    const $textarea = $('#tweet-text');
 
     // Slide up error message if open
     $('.error-message').slideUp(function() {
@@ -56,7 +57,7 @@ $(document).ready(function() {
         $('.error-message').slideDown();
       } else {
         $.ajax('/tweets', { data: $tweetText, method: 'POST' })
-          .then($('#tweet-text').val(''))
+          .then($textarea.val(''))
           .then(loadTweets());
       }
     });
