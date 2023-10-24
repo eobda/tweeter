@@ -9,3 +9,17 @@ body > header {
   background-image: url("../images/foggy-birds.png");
   color: #ffffff;
 }
+
+/*
+ * Responsive design
+ */
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  body > header {
+    height: 400px;
+    width: 50%;
+    padding-top: 0;
+    margin: 100px;
+  }
+}
