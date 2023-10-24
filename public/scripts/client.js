@@ -49,10 +49,10 @@ $(document).ready(function() {
 
     // Slide up error message if open
     $('.error-message').slideUp(function() {
-      if ($tweetText === 'text=') {
+      if ($textarea.val().length === 0) {
         $('.error-message').text('Tweet cannot be empty!');
         $('.error-message').slideDown();
-      } else if ($tweetText.length > 145) {
+      } else if ($textarea.val().length > 140) {
         $('.error-message').text('Tweet is too long');
         $('.error-message').slideDown();
       } else {
