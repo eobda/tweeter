@@ -42,7 +42,10 @@ main {
 /* Desktop */
 @media screen and (min-width: 1024px) {
   body {
-    background-color: #ffff00;
     display: flex;
+  }
+
+  main {
+    margin-top: 200px;
   }
 }

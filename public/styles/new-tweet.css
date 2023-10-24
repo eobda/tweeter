@@ -70,3 +70,14 @@ div#scroll-up {
   font-size: 30px;
   text-align: center;
 }
+
+/*
+ * Responsive design
+ */
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .new-tweet {
+    margin-top: 0;
+  }
+}
