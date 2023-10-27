@@ -7,6 +7,12 @@ $button-color: #FF0000;
 $body-font: 'Source Sans 3', sans-serif;
 $accent-font: 'Bungee', sans-serif;
 
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .new-tweet {
   display: none;
 
@@ -68,7 +74,6 @@ div#scroll-up {
   
   height: 80px;
   width: 80px;
-  padding: 23px;
   margin: 20px;
   
   position: fixed;
@@ -80,6 +85,11 @@ div#scroll-up {
   color: $bg-color;
   font-size: 30px;
   text-align: center;
+
+  i {
+    @include vertical-align();
+  }
+
 }
 
 /*
