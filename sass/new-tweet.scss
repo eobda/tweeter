@@ -12,39 +12,41 @@ $accent-font: 'Bungee', sans-serif;
   
   width: 80%;
   margin: 0 auto 60px auto;
-}
 
-.new-tweet form label {
-  width: 100%;
-  font-weight: 600;
-}
+  form {
+    label {
+      width: 100%;
+      font-weight: 600;
+    }
 
-.new-tweet textarea {
-  width: 100%;
-  resize: none;
-  margin-bottom: 10px;
+    textarea {
+      width: 100%;
+      resize: none;
+      margin-bottom: 10px;
 
-  border-top: none;
-  border-right: none;
-  border-bottom: 5px solid $text-color;
-  border-left: none;
-  outline: none;
-  background-color: $bg-color;
-  font-size: 18px;
-  font-weight: 600;
-}
+      border-top: none;
+      border-right: none;
+      border-bottom: 5px solid $text-color;
+      border-left: none;
+      outline: none;
+      background-color: $bg-color;
+      font-size: 18px;
+      font-weight: 600;
+    }
 
-.new-tweet form button {
-  border: 0;
-  padding: 5px 10px;
-  background-color: $accent-color;
-  color: $accent-text-color;
-}
+    button {
+      border: 0;
+      padding: 5px 10px;
+      background-color: $accent-color;
+      color: $accent-text-color;
+    }
 
-.new-tweet form div {
-  display: flex;
-  justify-content: space-between;
-  font-family: $accent-font;
+    div {
+      display: flex;
+      justify-content: space-between;
+      font-family: $accent-font;
+    }
+  }
 }
 
 /* Error message styling */
