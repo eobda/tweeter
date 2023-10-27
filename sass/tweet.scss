@@ -1,16 +1,9 @@
-$bg-color: #f4f1ec;
-$text-color: #545149;
-$header-bg-color: #d89925;
-$accent-color: #4056A1;
-$accent-text-color: #FFFFFF;
-$button-color: #FF0000;
-$body-font: 'Source Sans 3', sans-serif;
-$accent-font: 'Bungee', sans-serif;
+@use '_modules';
 
 article.tweet {
   margin: 50px auto;
   padding: 15px;
-  border: 5px solid $text-color;
+  border: 5px solid modules.$text-color;
 
   header, footer {
     display: flex;
@@ -29,7 +22,7 @@ article.tweet {
     }
 
     div.username {
-      color: $accent-color;
+      color: modules.$accent-color;
       opacity: 0.25;
       font-weight: 600;
     }
@@ -41,24 +34,24 @@ article.tweet {
   }
 
   footer {
-    border-top: 5px solid $text-color;
+    border-top: 5px solid modules.$text-color;
     font-size: 18px;
     font-weight: 600;
 
     div.icons i {
       margin: 0px 2px;
-      color: $accent-color
+      color: modules.$accent-color
     }
   }
 }
 
 /*** Hover state ***/
 article.tweet:hover {
-  box-shadow: 7px 7px rgba($accent-color, 0.25);
+  box-shadow: 7px 7px rgba(modules.$accent-color, 0.25);
 }
 
 article.tweet footer div.icons i:hover {
-  color: $header-bg-color;
+  color: modules.$header-bg-color;
 }
 
 /*

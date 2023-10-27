@@ -1,11 +1,4 @@
-$bg-color: #f4f1ec;
-$text-color: #545149;
-$header-bg-color: #d89925;
-$accent-color: #4056A1;
-$accent-text-color: #FFFFFF;
-$button-color: #FF0000;
-$body-font: 'Source Sans 3', sans-serif;
-$accent-font: 'Bungee', sans-serif;
+@use '_modules';
 
 @keyframes bounce {
   0%, 100% {transform: translateY(0)};
@@ -22,16 +15,16 @@ nav {
   width: 100%;
   padding-left: 1.5em;
   padding-right: 1.5em;
-  color: $accent-text-color;
+  color: modules.$accent-text-color;
   text-align: center;
   
   span {
-    font-family: $accent-font;
+    font-family: modules.$accent-font;
     font-size: 36px;
   }
 
   i {
-    color: $button-color;
+    color: modules.$button-color;
     animation: bounce 1.5s infinite;
   }
 
@@ -44,12 +37,12 @@ nav {
 
 /* Class needed for mobile layout */
 .bgcolor {
-  background-color: $accent-color;
+  background-color: modules.$accent-color;
 }
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
   nav {
-    background-color: $accent-color;
+    background-color: modules.$accent-color;
   }
 }
