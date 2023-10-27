@@ -46,7 +46,7 @@ article.tweet footer div.icons i:hover {
 /*
  * Responsive design
  */
-/* Desktop */
+/*** Desktop ***/
 @media screen and (min-width: 1024px) {
   article.tweet {
     margin: 0 50px 100px 50px;

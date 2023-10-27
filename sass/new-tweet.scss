@@ -41,7 +41,7 @@
   }
 }
 
-/* Error message styling */
+/*** Error message ***/
 div.error-message {
   display: none;
 
@@ -54,7 +54,7 @@ div.error-message {
   font-weight: 600;
 }
 
-/* Scroll up button styling */
+/*** Scroll up button ***/
 div#scroll-up {
   display: none;
   
@@ -82,7 +82,7 @@ div#scroll-up {
  * Responsive design
  */
 
-/* Desktop */
+/*** Desktop ***/
 @media screen and (min-width: 1024px) {
   .new-tweet {
     margin-top: 0;

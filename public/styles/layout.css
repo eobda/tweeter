@@ -39,7 +39,7 @@ main {
 /*
  * Responsive design
  */
-/* Desktop */
+/*** Desktop ***/
 @media screen and (min-width: 1024px) {
   body {
     flex-direction: row;

@@ -23,7 +23,7 @@ body > header h2 {
 /*
  * Responsive design
  */
-/* Desktop */
+/*** Desktop ***/
 @media screen and (min-width: 1024px) {
   body > header {
     height: 400px;

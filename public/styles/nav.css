@@ -31,12 +31,12 @@ nav i {
 /*
  * Responsive design
  */
-/* Class needed for mobile layout */
+/*** Class needed for mobile layout ***/
 .bgcolor {
   background-color: #4056A1;
 }
 
-/* Desktop */
+/*** Desktop ***/
 @media screen and (min-width: 1024px) {
   nav {
     background-color: #4056A1;

@@ -30,17 +30,16 @@ nav {
 
 }
 
-
 /*
  * Responsive design
  */
 
-/* Class needed for mobile layout */
+/*** Class needed for mobile layout ***/
 .bgcolor {
   background-color: modules.$accent-color;
 }
 
-/* Desktop */
+/*** Desktop ***/
 @media screen and (min-width: 1024px) {
   nav {
     background-color: modules.$accent-color;

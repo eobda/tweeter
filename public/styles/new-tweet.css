@@ -31,7 +31,7 @@
   font-family: "Bungee", sans-serif;
 }
 
-/* Error message styling */
+/*** Error message ***/
 div.error-message {
   display: none;
   margin-bottom: 30px;
@@ -43,7 +43,7 @@ div.error-message {
   font-weight: 600;
 }
 
-/* Scroll up button styling */
+/*** Scroll up button ***/
 div#scroll-up {
   display: none;
   height: 80px;
@@ -67,7 +67,7 @@ div#scroll-up i {
 /*
  * Responsive design
  */
-/* Desktop */
+/*** Desktop ***/
 @media screen and (min-width: 1024px) {
   .new-tweet {
     margin-top: 0;
