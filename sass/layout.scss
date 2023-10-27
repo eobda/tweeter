@@ -21,7 +21,7 @@ $accent-font: 'Bungee', sans-serif;
 
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: $text-color;
   background-color: $bg-color;
   font-family: $body-font;
@@ -30,7 +30,7 @@ body {
 
 main {
   width: 90%;
-  margin: 200px auto 0 auto;
+  margin: auto;
   background-color: $bg-color;
 }
 
