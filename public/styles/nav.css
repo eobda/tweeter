@@ -13,7 +13,7 @@ nav {
 }
 
 nav span.logo {
-  font-family: 'Bungee', sans-serif;
+  font-family: "Bungee", sans-serif;
   font-size: 36px;
 }
 
@@ -21,11 +21,9 @@ nav i {
   color: #FF0000;
 }
 
-
 /*
  * Responsive design
  */
-
 /* Mobile */
 @media screen and (max-width: 1024px) {
   nav {
