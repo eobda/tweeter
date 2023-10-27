@@ -20,10 +20,14 @@ nav i {
   color: #FF0000;
 }
 
-
 /*
  * Responsive design
  */
+
+/* Class needed for mobile layout */
+.bgcolor {
+  background-color: #4056A1;
+}
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
