@@ -6,6 +6,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -13,13 +14,12 @@ html {
 /*
  * Global layout stuff
  */
-
 body {
   display: flex;
   flex-direction: row;
   color: #545149;
   background-color: #f4f1ec;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 24px;
 }
 
@@ -32,7 +32,6 @@ main {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
-
 .button:hover {
   cursor: pointer;
 }
@@ -40,13 +39,11 @@ main {
 /*
  * Responsive design
  */
-
 /* Mobile */
 @media screen and (max-width: 1024px) {
   body {
     flex-direction: column;
   }
-
   main {
     margin-top: 0;
   }

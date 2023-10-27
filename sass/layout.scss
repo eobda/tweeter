@@ -14,19 +14,24 @@ html {
  * Global layout stuff
  */
 
+$bg-color: #f4f1ec;
+$font-color: #545149;
+$body-font: 'Source Sans 3', sans-serif;
+$accent-font: 'Bungee', sans-serif;
+
 body {
   display: flex;
   flex-direction: row;
-  color: #545149;
-  background-color: #f4f1ec;
-  font-family: 'Source Sans 3', sans-serif;
+  color: $font-color;
+  background-color: $bg-color;
+  font-family: $body-font;
   font-size: 24px;
 }
 
 main {
   width: 90%;
   margin: 200px auto 0 auto;
-  background-color: #f4f1ec;
+  background-color: $bg-color;
 }
 
 /*
