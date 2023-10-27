@@ -1,0 +1,83 @@
+.new-tweet {
+  display: none;
+  
+  width: 80%;
+  margin: 0 auto 60px auto;
+}
+
+.new-tweet form label {
+  width: 100%;
+  font-weight: 600;
+}
+
+.new-tweet textarea {
+  width: 100%;
+  resize: none;
+  margin-bottom: 10px;
+
+  border-top: none;
+  border-right: none;
+  border-bottom: 5px solid #545149;
+  border-left: none;
+  outline: none;
+  background-color: #f4f1ec;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.new-tweet form button {
+  border: 0;
+  padding: 5px 10px;
+  background-color: #4056A1;
+  color: #FFFFFF;
+}
+
+.new-tweet form div {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Bungee', sans-serif;
+}
+
+/* Error message styling */
+div.error-message {
+  display: none;
+
+  margin-bottom: 30px;
+  padding: 20px 30px;
+  background-color: #fce4e4;
+  border: 1px solid #fcc2c3;
+  color: #cc0033;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Scroll up button styling */
+div#scroll-up {
+  display: none;
+  
+  height: 80px;
+  width: 80px;
+  padding: 23px;
+  margin: 20px;
+  
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  background-color: #ff0000;
+  border-radius: 50%;
+  color: #f4f1ec;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*
+ * Responsive design
+ */
+
+/* Mobile */
+@media screen and (max-width: 1024px) {
+  .new-tweet {
+    margin: 60px auto;
+  }
+}
