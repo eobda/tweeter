@@ -12,43 +12,43 @@ article.tweet {
   margin: 0 auto 100px;
   padding: 15px;
   border: 5px solid $text-color;
-}
 
-article.tweet header, article.tweet footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-}
+  header, footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
 
-article.tweet header > div {
-  display: flex;
-  align-items: center;
-}
+  header > div {
+    display: flex;
+    align-items: center;
+  }
 
-article.tweet header > div > span {
-  margin-left: 10px;
-}
+  header > div > span {
+    margin-left: 10px;
+  }
 
-article.tweet header div.username {
-  color: $accent-color;
-  opacity: 0.25;
-  font-weight: 600;
-}
+  header div.username {
+    color: $accent-color;
+    opacity: 0.25;
+    font-weight: 600;
+  }
 
-article.tweet div p {
-  padding: 15px;
-  font-weight: 600;
-}
+  div p {
+    padding: 15px;
+    font-weight: 600;
+  }
 
-article.tweet footer {
-  border-top: 5px solid $text-color;
-  font-size: 18px;
-  font-weight: 600;
-}
+  footer {
+    border-top: 5px solid $text-color;
+    font-size: 18px;
+    font-weight: 600;
 
-article.tweet footer div.icons i {
-  margin: 0px 2px;
-  color: $accent-color
+    div.icons i {
+      margin: 0px 2px;
+      color: $accent-color
+    }
+  }
 }
 
 /*** Hover state ***/

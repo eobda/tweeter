@@ -4,39 +4,32 @@ article.tweet {
   padding: 15px;
   border: 5px solid #545149;
 }
-
 article.tweet header, article.tweet footer {
   display: flex;
   justify-content: space-between;
   padding: 15px;
 }
-
 article.tweet header > div {
   display: flex;
   align-items: center;
 }
-
 article.tweet header > div > span {
   margin-left: 10px;
 }
-
 article.tweet header div.username {
   color: #4056A1;
   opacity: 0.25;
   font-weight: 600;
 }
-
 article.tweet div p {
   padding: 15px;
   font-weight: 600;
 }
-
 article.tweet footer {
   border-top: 5px solid #545149;
   font-size: 18px;
   font-weight: 600;
 }
-
 article.tweet footer div.icons i {
   margin: 0px 2px;
   color: #4056A1;
