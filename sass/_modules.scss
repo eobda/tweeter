@@ -1,6 +1,4 @@
-/*
- * Theme colours
- */
+// Theme Colours
 $bg-color: #f4f1ec;
 $text-color: #545149;
 $header-bg-color: #d89925;
@@ -10,9 +8,7 @@ $button-color: #FF0000;
 $body-font: 'Source Sans 3', sans-serif;
 $accent-font: 'Bungee', sans-serif;
 
-/*
- * Mix-ins
- */
+// Mix-ins
 @mixin vertical-align {
   position: relative;
   top: 50%;
