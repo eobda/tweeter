@@ -6,6 +6,11 @@ $button-color: #FF0000;
 $body-font: 'Source Sans 3', sans-serif;
 $accent-font: 'Bungee', sans-serif;
 
+@keyframes bounce {
+  0%, 100% {transform: translateY(0)};
+  50% {transform: translateY(5px)};
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -26,6 +31,7 @@ nav {
 
   i {
     color: $button-color;
+    animation: bounce 1.5s infinite;
   }
 
 }
