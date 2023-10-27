@@ -96,9 +96,9 @@ div#scroll-up {
  * Responsive design
  */
 
-/* Mobile */
-@media screen and (max-width: 1024px) {
+/* Desktop */
+@media screen and (min-width: 1024px) {
   .new-tweet {
-    margin: 60px auto;
+    margin-top: 0;
   }
 }
