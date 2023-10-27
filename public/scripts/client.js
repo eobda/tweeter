@@ -59,6 +59,7 @@ $(document).ready(function() {
         $.ajax('/tweets', { data: $tweetText, method: 'POST' })
           .done(function() {
             loadTweets();
+            // Clear textarea and reset counter
             $textarea.val('');
             $('.counter').text('140');
           });
