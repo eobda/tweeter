@@ -1,18 +1,25 @@
 # Tweeter Project
 
-Tweeter is a simple, single-page Twitter clone.
+Tweeter is a simple, single-page Twitter (RIP) clone. Write a message of 140 characters or less and post it for all to behold.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+![Desktop appearance](docs/desktop-screenshot.png)
+*Default appearance*
 
-## Getting Started
+![Scroll up button](docs/desktop-scroll-behaviour.png)
+*Scroll to top button*
 
-1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
-2. Clone your repository onto your local device.
-3. Install dependencies using the `npm install` command.
-3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
-4. Go to <http://localhost:8080/> in your browser.
+![Mobile appearance with error message](docs/mobile-error-msg.png)
+*Mobile viewport appearance with error message*
+
+Built with HTML, CSS, SASS, JS, jQuery and AJAX as part of Lighthouse Lab's Web Flex program.
 
 ## Dependencies
 
 - Express
 - Node 5.10.x or above
+
+## Getting started
+
+1. Install all dependencies using the `npm install` command.
+2. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
+3. Go to <http://localhost:8080/> in your browser.
