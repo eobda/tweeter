@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  console.log('composer-char-counter has loaded');
-  
+
+  // Track number of chars in input, subtract from character limit, and show in counter HTML
   $('#tweet-text').on('input', function() {
     const $composer = $(this);
     const charLimit = 140;
