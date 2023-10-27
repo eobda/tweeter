@@ -7,6 +7,12 @@ $button-color: #FF0000;
 $body-font: 'Source Sans 3', sans-serif;
 $accent-font: 'Bungee', sans-serif;
 
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 body > header {
   display: flex;
   flex-direction: column;
