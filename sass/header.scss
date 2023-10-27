@@ -21,10 +21,14 @@ body > header {
   height: 400px;
   width: 50%;
   margin: 200px 100px;
-  padding-top: 30px;
+  // padding-top: 30px;
   background-color: $header-bg-color;
   background-image: url("../images/foggy-birds.png");
   color: $accent-text-color;
+
+  div {
+    @include vertical-align();
+  }
 }
 
 /*
