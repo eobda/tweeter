@@ -57,8 +57,11 @@ $(document).ready(function() {
         $('.error-message').slideDown();
       } else {
         $.ajax('/tweets', { data: $tweetText, method: 'POST' })
-          .then(loadTweets())
-          .then($textarea.val(''));
+          .done(function() {
+            loadTweets();
+            $textarea.val('');
+            $('.counter').text('140');
+          });
       }
     });
 
