@@ -4,6 +4,7 @@ body > header {
   justify-content: flex-start;
   align-items: center;
   height: 520px;
+  width: 100%;
   padding-top: 120px;
   background-color: #d89925;
   background-image: url("../images/foggy-birds.png");
