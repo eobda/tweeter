@@ -18,15 +18,16 @@ nav {
   background-color: $accent-color;
   color: $accent-text-color;
   text-align: center;
-}
+  
+  span.logo {
+    font-family: $accent-font;
+    font-size: 36px;
+  }
 
-nav span.logo {
-  font-family: $accent-font;
-  font-size: 36px;
-}
+  i {
+    color: $button-color;
+  }
 
-nav i {
-  color: $button-color;
 }
 
 

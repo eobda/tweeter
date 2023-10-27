@@ -11,12 +11,10 @@ nav {
   color: #FFFFFF;
   text-align: center;
 }
-
 nav span.logo {
   font-family: "Bungee", sans-serif;
   font-size: 36px;
 }
-
 nav i {
   color: #FF0000;
 }
