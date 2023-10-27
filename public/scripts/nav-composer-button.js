@@ -20,7 +20,7 @@ $(document).ready(function() {
     // Get scrollTop value whenever user scrolls
     const $scrollVal = $(window).scrollTop();
 
-    // Measure scroll distance from top and change button appearance based on distance
+    // Change button appearance based on scrollTop value
     if ($scrollVal > 50) {
       $('#composer-button').css('display', 'none');
       $('#scroll-up').css('display', 'block');
