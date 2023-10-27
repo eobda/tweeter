@@ -19,8 +19,7 @@ body > header {
   justify-content: flex-start;
   align-items: center;
   height: 520px;
-  padding-top: 150px;
-  // padding-top: 30px;
+  padding-top: 120px;
   background-color: $header-bg-color;
   background-image: url("../images/foggy-birds.png");
   color: $accent-text-color;
@@ -45,7 +44,7 @@ body > header {
   body > header {
     height: 400px;
     width: 50%;
-    // padding-top: 30px;
+    padding-top: 0;
     margin: 200px 100px;
   }
 }
