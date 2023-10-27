@@ -12,7 +12,7 @@ $(document).ready(function() {
     }
     $('html').animate({scrollTop: 0}, '300');
 
-    // Delay focus event until scrollTop animation is complete
+    // Delay focus event until scrollTop animation is complete to prevent button flashing
     setTimeout(() => $('#tweet-text').trigger('focus'), 400);
   });
 
