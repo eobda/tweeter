@@ -21,6 +21,13 @@ $(document).ready(function() {
       $('#composer-button').css('display', 'block');
       $('#scroll-up').css('display', 'none');
     }
+
+    // Add bgcolor to nav bar once user scrolls past the header - only relevant for mobile layout
+    if ($scrollVal > 400) {
+      $('nav').addClass('bgcolor');
+    } else {
+      $('nav').removeClass('bgcolor');
+    }
   
   });
 });

@@ -7,7 +7,6 @@ nav {
   width: 100%;
   padding-left: 1.5em;
   padding-right: 1.5em;
-  background-color: #4056A1;
   color: #FFFFFF;
   text-align: center;
 }
@@ -22,9 +21,15 @@ nav i {
 /*
  * Responsive design
  */
-/* Mobile */
-@media screen and (max-width: 1024px) {
+
+/* Class needed for mobile layout */
+.bgcolor {
+  background-color: #4056A1;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
   nav {
-    background-color: transparent;
+    background-color: #4056A1;
   }
 }

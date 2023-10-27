@@ -16,7 +16,7 @@ html {
  */
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: #545149;
   background-color: #f4f1ec;
   font-family: "Source Sans 3", sans-serif;
@@ -25,7 +25,7 @@ body {
 
 main {
   width: 90%;
-  margin: 200px auto 0 auto;
+  margin: auto;
   background-color: #f4f1ec;
 }
 
@@ -39,12 +39,13 @@ main {
 /*
  * Responsive design
  */
-/* Mobile */
-@media screen and (max-width: 1024px) {
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
   body {
-    flex-direction: column;
+    flex-direction: row;
   }
   main {
-    margin-top: 0;
+    margin-top: 200px;
   }
 }

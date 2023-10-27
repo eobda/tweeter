@@ -1,6 +1,6 @@
 article.tweet {
   width: 80%;
-  margin: 0 auto 100px;
+  margin: 50px auto;
   padding: 15px;
   border: 5px solid #545149;
 }
@@ -47,9 +47,10 @@ article.tweet footer div.icons i:hover {
 /*
  * Responsive design
  */
-/* Mobile */
-@media screen and (max-width: 1024px) {
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
   article.tweet {
-    margin: 50px auto;
+    margin: 0 auto 100px;
   }
 }
