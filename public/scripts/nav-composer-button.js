@@ -2,13 +2,16 @@ $(document).ready(function() {
   $('#composer-button').on('click', function() {
     // Slide composer up if open, down if closed
     $('section.new-tweet').slideToggle();
-    $('#tweet-text').focus();
+    $('#tweet-text').trigger('focus');
   });
 
   $('#scroll-up').on('click', function() {
+    // Only slide down composer if not already visible
+    if ($('section.new-tweet').css('display') === 'none') {
+      $('section.new-tweet').slideDown();
+    }
     $('html').animate({scrollTop: 0}, '300');
-    $('section.new-tweet').slideDown();
-    $('#tweet-text').focus();
+    $('#tweet-text').trigger('focus');
   });
 
   $(window).on('scroll', function() {
