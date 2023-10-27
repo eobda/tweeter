@@ -8,7 +8,6 @@ $body-font: 'Source Sans 3', sans-serif;
 $accent-font: 'Bungee', sans-serif;
 
 article.tweet {
-  width: 80%;
   margin: 50px auto;
   padding: 15px;
   border: 5px solid $text-color;
@@ -67,6 +66,6 @@ article.tweet footer div.icons i:hover {
 /* Desktop */
 @media screen and (min-width: 1024px) {
   article.tweet {
-    margin: 0 auto 100px;
+    margin: 0 50px 100px 50px;
   }
 }

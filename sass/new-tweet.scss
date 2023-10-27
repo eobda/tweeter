@@ -16,7 +16,6 @@ $accent-font: 'Bungee', sans-serif;
 .new-tweet {
   display: none;
 
-  width: 80%;
   margin: 60px auto;
 
   form {
@@ -100,5 +99,7 @@ div#scroll-up {
 @media screen and (min-width: 1024px) {
   .new-tweet {
     margin-top: 0;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 }

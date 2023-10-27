@@ -1,6 +1,5 @@
 .new-tweet {
   display: none;
-  width: 80%;
   margin: 60px auto;
 }
 .new-tweet form label {
@@ -72,5 +71,7 @@ div#scroll-up i {
 @media screen and (min-width: 1024px) {
   .new-tweet {
     margin-top: 0;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 }
