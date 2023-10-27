@@ -28,8 +28,13 @@ body > header {
 
   div {
     @include vertical-align();
+  }
+
+  h2 {
+    margin-bottom: 0;
     text-align: center;
   }
+
 }
 
 /*
