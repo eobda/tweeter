@@ -1,3 +1,12 @@
+$bg-color: #f4f1ec;
+$font-color: #545149;
+$header-bg-color: #d89925;
+$nav-bg-color: #4056A1;
+$nav-font-color: #FFFFFF;
+$button-color: #FF0000;
+$body-font: 'Source Sans 3', sans-serif;
+$accent-font: 'Bungee', sans-serif;
+
 body > header {
   display: flex;
   flex-direction: column;
@@ -7,9 +16,9 @@ body > header {
   width: 50%;
   margin: 200px 100px;
   padding-top: 30px;
-  background-color: #d89925;
+  background-color: $header-bg-color;
   background-image: url("../images/foggy-birds.png");
-  color: #ffffff;
+  color: $nav-font-color;
 }
 
 /*
