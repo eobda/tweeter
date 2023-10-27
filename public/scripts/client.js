@@ -71,7 +71,7 @@ $(document).ready(function() {
   // Fetching information with AJAX
   const loadTweets = function() {
     $.ajax('/tweets', { method: 'GET' })
-      .then(function(tweets) {
+      .done(function(tweets) {
         renderTweets(tweets);
       });
   };
