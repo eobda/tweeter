@@ -18,19 +18,21 @@ article.tweet {
     padding: 15px;
   }
 
-  header > div {
-    display: flex;
-    align-items: center;
-  }
+  header {
+    div {
+      display: flex;
+      align-items: center;
+    }
 
-  header > div > span {
-    margin-left: 10px;
-  }
+    div > span {
+      margin-left: 10px;
+    }
 
-  header div.username {
-    color: $accent-color;
-    opacity: 0.25;
-    font-weight: 600;
+    div.username {
+      color: $accent-color;
+      opacity: 0.25;
+      font-weight: 600;
+    }
   }
 
   div p {
