@@ -11,7 +11,7 @@ Tweeter is a simple, single-page Twitter (RIP) clone. Write a message of 140 cha
 ![Mobile appearance with error message](docs/mobile-error-msg.png)
 *Mobile viewport appearance with error message*
 
-Built with HTML, CSS, SASS, JS, jQuery and AJAX as part of Lighthouse Lab's Web Flex program.
+Built with HTML, CSS, SASS, JavaScript, jQuery and AJAX.
 
 ## Dependencies
 
