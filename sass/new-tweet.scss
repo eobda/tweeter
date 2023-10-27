@@ -1,3 +1,12 @@
+$bg-color: #f4f1ec;
+$text-color: #545149;
+$header-bg-color: #d89925;
+$accent-color: #4056A1;
+$accent-text-color: #FFFFFF;
+$button-color: #FF0000;
+$body-font: 'Source Sans 3', sans-serif;
+$accent-font: 'Bungee', sans-serif;
+
 .new-tweet {
   display: none;
   
@@ -17,10 +26,10 @@
 
   border-top: none;
   border-right: none;
-  border-bottom: 5px solid #545149;
+  border-bottom: 5px solid $text-color;
   border-left: none;
   outline: none;
-  background-color: #f4f1ec;
+  background-color: $bg-color;
   font-size: 18px;
   font-weight: 600;
 }
@@ -28,14 +37,14 @@
 .new-tweet form button {
   border: 0;
   padding: 5px 10px;
-  background-color: #4056A1;
-  color: #FFFFFF;
+  background-color: $accent-color;
+  color: $accent-text-color;
 }
 
 .new-tweet form div {
   display: flex;
   justify-content: space-between;
-  font-family: 'Bungee', sans-serif;
+  font-family: $accent-font;
 }
 
 /* Error message styling */
@@ -64,7 +73,7 @@ div#scroll-up {
   bottom: 0;
   right: 0;
 
-  background-color: #ff0000;
+  background-color: $button-color;
   border-radius: 50%;
   color: #f4f1ec;
   font-size: 30px;

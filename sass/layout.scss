@@ -15,14 +15,14 @@ html {
  */
 
 $bg-color: #f4f1ec;
-$font-color: #545149;
+$text-color: #545149;
 $body-font: 'Source Sans 3', sans-serif;
 $accent-font: 'Bungee', sans-serif;
 
 body {
   display: flex;
   flex-direction: row;
-  color: $font-color;
+  color: $text-color;
   background-color: $bg-color;
   font-family: $body-font;
   font-size: 24px;

@@ -1,6 +1,5 @@
 .new-tweet {
   display: none;
-  
   width: 80%;
   margin: 0 auto 60px auto;
 }
@@ -14,7 +13,6 @@
   width: 100%;
   resize: none;
   margin-bottom: 10px;
-
   border-top: none;
   border-right: none;
   border-bottom: 5px solid #545149;
@@ -35,13 +33,12 @@
 .new-tweet form div {
   display: flex;
   justify-content: space-between;
-  font-family: 'Bungee', sans-serif;
+  font-family: "Bungee", sans-serif;
 }
 
 /* Error message styling */
 div.error-message {
   display: none;
-
   margin-bottom: 30px;
   padding: 20px 30px;
   background-color: #fce4e4;
@@ -54,17 +51,14 @@ div.error-message {
 /* Scroll up button styling */
 div#scroll-up {
   display: none;
-  
   height: 80px;
   width: 80px;
   padding: 23px;
   margin: 20px;
-  
   position: fixed;
   bottom: 0;
   right: 0;
-
-  background-color: #ff0000;
+  background-color: #FF0000;
   border-radius: 50%;
   color: #f4f1ec;
   font-size: 30px;
@@ -74,7 +68,6 @@ div#scroll-up {
 /*
  * Responsive design
  */
-
 /* Mobile */
 @media screen and (max-width: 1024px) {
   .new-tweet {

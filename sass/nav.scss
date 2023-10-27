@@ -1,7 +1,7 @@
 $bg-color: #f4f1ec;
-$font-color: #545149;
-$nav-bg-color: #4056A1;
-$nav-font-color: #FFFFFF;
+$text-color: #545149;
+$accent-color: #4056A1;
+$accent-text-color: #FFFFFF;
 $button-color: #FF0000;
 $body-font: 'Source Sans 3', sans-serif;
 $accent-font: 'Bungee', sans-serif;
@@ -15,8 +15,8 @@ nav {
   width: 100%;
   padding-left: 1.5em;
   padding-right: 1.5em;
-  background-color: $nav-bg-color;
-  color: $nav-font-color;
+  background-color: $accent-color;
+  color: $accent-text-color;
   text-align: center;
 }
 
