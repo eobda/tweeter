@@ -11,7 +11,9 @@ $(document).ready(function() {
       $('section.new-tweet').slideDown();
     }
     $('html').animate({scrollTop: 0}, '300');
-    $('#tweet-text').trigger('focus');
+
+    // Delay focus event until scrollTop animation is complete
+    setTimeout(() => $('#tweet-text').trigger('focus'), 400);
   });
 
   $(window).on('scroll', function() {
