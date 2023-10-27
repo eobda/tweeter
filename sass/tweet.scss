@@ -1,8 +1,17 @@
+$bg-color: #f4f1ec;
+$text-color: #545149;
+$header-bg-color: #d89925;
+$accent-color: #4056A1;
+$accent-text-color: #FFFFFF;
+$button-color: #FF0000;
+$body-font: 'Source Sans 3', sans-serif;
+$accent-font: 'Bungee', sans-serif;
+
 article.tweet {
   width: 80%;
   margin: 0 auto 100px;
   padding: 15px;
-  border: 5px solid #545149;
+  border: 5px solid $text-color;
 }
 
 article.tweet header, article.tweet footer {
@@ -21,7 +30,7 @@ article.tweet header > div > span {
 }
 
 article.tweet header div.username {
-  color: #4056A1;
+  color: $accent-color;
   opacity: 0.25;
   font-weight: 600;
 }
@@ -32,23 +41,23 @@ article.tweet div p {
 }
 
 article.tweet footer {
-  border-top: 5px solid #545149;
+  border-top: 5px solid $text-color;
   font-size: 18px;
   font-weight: 600;
 }
 
 article.tweet footer div.icons i {
   margin: 0px 2px;
-  color: #4056A1;
+  color: $accent-color
 }
 
 /*** Hover state ***/
 article.tweet:hover {
-  box-shadow: 7px 7px rgba(64, 86, 161, 0.25);
+  box-shadow: 7px 7px rgba($accent-color, 0.25);
 }
 
 article.tweet footer div.icons i:hover {
-  color: #d89925;
+  color: $header-bg-color;
 }
 
 /*
